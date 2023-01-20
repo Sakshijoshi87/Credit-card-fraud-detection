@@ -10,15 +10,17 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
 
 ## Steps for Execution:
 
-Extrcated the data and checked the information adn the description for the data and if there are any null values in it.
-Checked the correlation for the data.
-As the data has some negative and positive values, so the we can conlude the data has already been scaled and its mentioned in the descriptionas well.
-Since its a huge dataset we can't do all our computations on it so taking a sample from the dataset of 25% which has been picked randomly.
-Now we can perform the Exploratory Data Analysis on this sample.
-Checked the number of values are for the proper transaction and how many are for the fraud ones.
-Split the dataset into training and testing data depending on the X and y features.
-Trained a simple Logistic Regressor model for classification using the train and test data.
-Evaluated the performance with the Classification Report and the results are as mentioned below.
+1. Extracted the data and checked the information adn the description for the data and if there are any null values in it.
+2. Checked the correlation for the data.
+3. As the data has some negative and positive values, so the we can conlude the data has already been scaled and its mentioned in the descriptionas well.
+4. Since its a huge dataset we can't do all our computations on it so taking a sample from the dataset of 25% which has been picked randomly.
+5. Now we can perform the Exploratory Data Analysis on this sample.
+6. Checked the number of values are for the proper transaction and how many are for the fraud ones.
+7. Split the dataset into training and testing data depending on the X and y features.
+8. Trained a simple Logistic Regressor model for classification using the train and test data.
+9. Evaluated the performance with the Classification Report and the results are as mentioned below.
+
+
 Classification Report:
 
           precision    recall  f1-score   support
